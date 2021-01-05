@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_structure_and_financial_report_structure_and_financial_reports",
+  "info": {
+    "name": "StructureAndFinancialReport",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Structure": {
+      "type": "string",
+      "default": "Structure"
+    },
+    "Structure_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "FinancialReport": {
+      "type": "string",
+      "default": "Financial Report"
+    },
+    "FinancialReport_file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

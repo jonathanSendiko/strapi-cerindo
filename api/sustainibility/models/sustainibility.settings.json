@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sustainibility",
+  "info": {
+    "name": "Sustainibility",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "body_en": {
+      "type": "richtext"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "body_ch": {
+      "type": "richtext"
+    },
+    "tab_en": {
+      "type": "string"
+    },
+    "tab_id": {
+      "type": "string"
+    },
+    "tab_ch": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
