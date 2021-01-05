@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Business",
+  "info": {
+    "name": "Business",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_en": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "title_id": {
+      "type": "string",
+      "required": true
+    },
+    "title_ch": {
+      "type": "string",
+      "required": true
+    },
+    "body_en": {
+      "type": "richtext",
+      "required": true
+    },
+    "body_id": {
+      "type": "richtext",
+      "required": true
+    },
+    "body_ch": {
+      "type": "richtext",
+      "required": true
+    },
+    "tag_en": {
+      "type": "string",
+      "required": true
+    },
+    "tag_id": {
+      "type": "string",
+      "required": true
+    },
+    "tag_ch": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
