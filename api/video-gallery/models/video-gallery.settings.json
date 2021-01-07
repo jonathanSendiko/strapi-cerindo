@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_galleries",
+  "info": {
+    "name": "Video Gallery",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "video_title_en": {
+      "type": "string"
+    },
+    "video_title_ch": {
+      "type": "string"
+    },
+    "video_title_id": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "description_id": {
+      "type": "text"
+    },
+    "description_ch": {
+      "type": "text"
+    },
+    "Video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

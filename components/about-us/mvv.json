@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_mvvs",
+  "info": {
+    "name": "MVV",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "MVV_images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_organization_structures",
+  "info": {
+    "name": "organizationStructure",
+    "icon": "code-branch"
+  },
+  "options": {},
+  "attributes": {
+    "Structure_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

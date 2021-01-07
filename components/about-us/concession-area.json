@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_concession_areas",
+  "info": {
+    "name": "concession_area",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "concession_images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

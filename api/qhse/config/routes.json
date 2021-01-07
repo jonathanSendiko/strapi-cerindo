@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/qhse",
+      "handler": "qhse.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/qhse",
+      "handler": "qhse.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/qhse",
+      "handler": "qhse.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

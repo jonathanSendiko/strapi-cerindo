@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_qhse_environments",
+  "info": {
+    "name": "Environment",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title2_id": {
+      "type": "string"
+    },
+    "title1_id": {
+      "type": "string"
+    },
+    "description2_id": {
+      "type": "text"
+    },
+    "description1_id": {
+      "type": "text"
+    },
+    "title2_ch": {
+      "type": "string"
+    },
+    "title1_ch": {
+      "type": "string"
+    },
+    "description2_ch": {
+      "type": "text"
+    },
+    "title2_en": {
+      "type": "string"
+    },
+    "title1_en": {
+      "type": "string"
+    },
+    "description2_en": {
+      "type": "text"
+    },
+    "description1_en": {
+      "type": "text"
+    },
+    "description1_ch": {
+      "type": "text"
+    },
+    "environment_images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

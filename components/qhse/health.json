@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_static_health",
+  "info": {
+    "name": "Health",
+    "icon": "hand-holding-heart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_2_id": {
+      "type": "string"
+    },
+    "title_1_id": {
+      "type": "string"
+    },
+    "description2_id": {
+      "type": "text"
+    },
+    "description1_id": {
+      "type": "text"
+    },
+    "title2_ch": {
+      "type": "string"
+    },
+    "title1_ch": {
+      "type": "string"
+    },
+    "description2_ch": {
+      "type": "text"
+    },
+    "title2_en": {
+      "type": "string"
+    },
+    "description1_ch": {
+      "type": "text"
+    },
+    "title1_en": {
+      "type": "string"
+    },
+    "description2_en": {
+      "type": "text"
+    },
+    "description1_en": {
+      "type": "text"
+    }
+  }
+}
