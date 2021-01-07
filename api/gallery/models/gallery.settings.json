@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "Phase",
+  "collectionName": "gallery",
   "info": {
-    "name": "Phase",
-    "description": ""
+    "name": "Gallery"
   },
   "options": {
     "increments": true,
@@ -11,17 +10,14 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title_id": {
+    "title_en": {
       "type": "string"
     },
-    "title_en": {
+    "title_id": {
       "type": "string"
     },
     "title_ch": {
       "type": "string"
-    },
-    "body_id": {
-      "type": "richtext"
     },
     "body_en": {
       "type": "richtext"
@@ -29,21 +25,18 @@
     "body_ch": {
       "type": "richtext"
     },
-    "thumbnail": {
+    "body_id": {
+      "type": "richtext"
+    },
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
-    },
-    "StructureAndFinancialReport": {
-      "type": "component",
-      "repeatable": true,
-      "component": "structure-and-financial-report.structure-and-financial-report",
       "required": false
     }
   }

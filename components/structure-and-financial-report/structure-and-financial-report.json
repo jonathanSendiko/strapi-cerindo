@@ -22,7 +22,7 @@
     },
     "FinancialReport": {
       "type": "string",
-      "default": "Financial Report"
+      "default": "FinancialReport"
     },
     "FinancialReport_file": {
       "model": "file",
