@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "name": "About Us",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "boardOfDirectors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.board-of-director"
+    },
+    "MVV": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.mvv"
+    },
+    "companySubsdiary": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.company-subsdiary"
+    },
+    "organizationStructure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.organization-structure"
+    },
+    "history_and_milestone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.history-and-milestone"
+    },
+    "concession_area": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.concession-area"
+    },
+    "license_and_award": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.license-and-award"
+    }
+  }
+}

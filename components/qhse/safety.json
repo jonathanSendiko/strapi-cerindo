@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_qhse_safeties",
+  "info": {
+    "name": "Safety",
+    "icon": "heart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title3_id": {
+      "type": "string"
+    },
+    "title2_id": {
+      "type": "string"
+    },
+    "title1_id": {
+      "type": "string"
+    },
+    "description2_id": {
+      "type": "text"
+    },
+    "safety_images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description1_id": {
+      "type": "text"
+    },
+    "title3_en": {
+      "type": "string"
+    },
+    "description2_ch": {
+      "type": "text"
+    },
+    "title2_en": {
+      "type": "string"
+    },
+    "description1_ch": {
+      "type": "text"
+    },
+    "title1_en": {
+      "type": "string"
+    },
+    "description2_en": {
+      "type": "text"
+    },
+    "description1_en": {
+      "type": "text"
+    },
+    "title1_ch": {
+      "type": "string"
+    },
+    "title2_ch": {
+      "type": "string"
+    },
+    "title3_ch": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "press_news",
+  "info": {
+    "name": "Press News",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "news_id": {
+      "type": "text"
+    },
+    "news_en": {
+      "type": "text"
+    },
+    "news_ch": {
+      "type": "text"
+    },
+    "news_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

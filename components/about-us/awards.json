@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_us_awards",
+  "info": {
+    "name": "Awards",
+    "icon": "layer-group"
+  },
+  "options": {},
+  "attributes": {
+    "award_name": {
+      "type": "string"
+    },
+    "award_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

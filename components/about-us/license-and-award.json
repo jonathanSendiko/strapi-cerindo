@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_about_us_license_and_awards",
+  "info": {
+    "name": "License and Award",
+    "icon": "helicopter"
+  },
+  "options": {},
+  "attributes": {
+    "title_id": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "license_desc_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description_id": {
+      "type": "text"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "description_ch": {
+      "type": "text"
+    },
+    "Awards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.awards"
+    }
+  }
+}

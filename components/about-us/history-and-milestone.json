@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_about_us_history_and_milestones",
+  "info": {
+    "name": "history_and_milestone",
+    "icon": "history"
+  },
+  "options": {},
+  "attributes": {
+    "history_title_en": {
+      "type": "string"
+    },
+    "history_title_id": {
+      "type": "string"
+    },
+    "history_title_ch": {
+      "type": "string"
+    },
+    "history_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "milestone_images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

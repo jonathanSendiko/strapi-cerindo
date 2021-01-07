@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_static_qualities",
+  "info": {
+    "name": "Quality",
+    "icon": "user-check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "description_id": {
+      "type": "text"
+    },
+    "description_ch": {
+      "type": "text"
+    },
+    "quality_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

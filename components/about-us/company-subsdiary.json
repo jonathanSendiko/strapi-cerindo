@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_about_us_company_subsdiaries",
+  "info": {
+    "name": "Company Subsdiary",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "company_subsidiary_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description_id": {
+      "type": "text"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "description_ch": {
+      "type": "text"
+    }
+  }
+}
