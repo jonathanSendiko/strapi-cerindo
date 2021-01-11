@@ -13,35 +13,17 @@
     "title1_id": {
       "type": "string"
     },
-    "description2_id": {
-      "type": "text"
-    },
-    "description1_id": {
-      "type": "text"
-    },
     "title2_ch": {
       "type": "string"
     },
     "title1_ch": {
       "type": "string"
     },
-    "description2_ch": {
-      "type": "text"
-    },
     "title2_en": {
       "type": "string"
     },
     "title1_en": {
       "type": "string"
-    },
-    "description2_en": {
-      "type": "text"
-    },
-    "description1_en": {
-      "type": "text"
-    },
-    "description1_ch": {
-      "type": "text"
     },
     "environment_images": {
       "collection": "file",
@@ -53,6 +35,33 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "description1_en": {
+      "type": "richtext"
+    },
+    "description1_id": {
+      "type": "richtext"
+    },
+    "description1_ch": {
+      "type": "richtext"
+    },
+    "description2_en": {
+      "type": "richtext"
+    },
+    "description2_id": {
+      "type": "richtext"
+    },
+    "description2_ch": {
+      "type": "richtext"
+    },
+    "tag_id": {
+      "type": "string"
+    },
+    "tag_en": {
+      "type": "string"
+    },
+    "tag_ch": {
+      "type": "string"
     }
   }
 }

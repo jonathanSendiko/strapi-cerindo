@@ -2,7 +2,8 @@
   "collectionName": "components_about_us_license_and_awards",
   "info": {
     "name": "License and Award",
-    "icon": "helicopter"
+    "icon": "helicopter",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -26,19 +27,28 @@
       "plugin": "upload",
       "required": false
     },
-    "description_id": {
-      "type": "text"
-    },
-    "description_en": {
-      "type": "text"
-    },
-    "description_ch": {
-      "type": "text"
-    },
     "Awards": {
       "type": "component",
       "repeatable": true,
       "component": "about-us.awards"
+    },
+    "description_id": {
+      "type": "richtext"
+    },
+    "description_en": {
+      "type": "richtext"
+    },
+    "description_ch": {
+      "type": "richtext"
+    },
+    "tag_en": {
+      "type": "string"
+    },
+    "tag_id": {
+      "type": "string"
+    },
+    "tag_ch": {
+      "type": "string"
     }
   }
 }

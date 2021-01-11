@@ -2,7 +2,8 @@
   "collectionName": "components_about_us_mvvs",
   "info": {
     "name": "MVV",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,6 +17,35 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Mission": {
+      "type": "string"
+    },
+    "Vision": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "string"
+    },
+    "Mission_description": {
+      "type": "richtext"
+    },
+    "Vision_Description": {
+      "type": "richtext"
+    },
+    "ceriaValue": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.ceria-value"
+    },
+    "tag_en": {
+      "type": "string"
+    },
+    "tag_id": {
+      "type": "string"
+    },
+    "tag_ch": {
+      "type": "string"
     }
   }
 }

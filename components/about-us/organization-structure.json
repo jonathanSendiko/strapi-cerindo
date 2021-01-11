@@ -2,7 +2,8 @@
   "collectionName": "components_about_us_organization_structures",
   "info": {
     "name": "organizationStructure",
-    "icon": "code-branch"
+    "icon": "code-branch",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,6 +17,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "tag_id": {
+      "type": "string"
+    },
+    "tag_en": {
+      "type": "string"
+    },
+    "tag_ch": {
+      "type": "string"
     }
   }
 }

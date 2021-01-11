@@ -2,7 +2,8 @@
   "collectionName": "components_about_us_history_and_milestones",
   "info": {
     "name": "history_and_milestone",
-    "icon": "history"
+    "icon": "history",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -36,6 +37,24 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "tag_id": {
+      "type": "string"
+    },
+    "tag_en": {
+      "type": "string"
+    },
+    "tag_ch": {
+      "type": "string"
+    },
+    "history_description_id": {
+      "type": "richtext"
+    },
+    "history_description_en": {
+      "type": "richtext"
+    },
+    "history_description_ch": {
+      "type": "richtext"
     }
   }
 }

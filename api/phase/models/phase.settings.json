@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "press_news",
+  "collectionName": "Phase",
   "info": {
-    "name": "Press News",
+    "name": "Phase",
     "description": ""
   },
   "options": {
@@ -14,34 +14,37 @@
     "title_id": {
       "type": "string"
     },
-    "title_ch": {
-      "type": "string"
-    },
     "title_en": {
       "type": "string"
     },
-    "news_img": {
+    "title_ch": {
+      "type": "string"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "body_en": {
+      "type": "richtext"
+    },
+    "body_ch": {
+      "type": "richtext"
+    },
+    "thumbnail": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
       "required": false
     },
-    "news_en": {
-      "type": "richtext"
-    },
-    "news_id": {
-      "type": "richtext"
-    },
-    "news_ch": {
-      "type": "richtext"
-    },
-    "news_date": {
-      "type": "date"
+    "StructureAndFinancialReport": {
+      "type": "component",
+      "repeatable": true,
+      "component": "structure-and-financial-report.structure-and-financial-report",
+      "required": false
     }
   }
 }

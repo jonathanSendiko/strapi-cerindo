@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "press_news",
+  "collectionName": "gallery",
   "info": {
-    "name": "Press News",
-    "description": ""
+    "name": "Gallery"
   },
   "options": {
     "increments": true,
@@ -11,16 +10,25 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "title_en": {
+      "type": "string"
+    },
     "title_id": {
       "type": "string"
     },
     "title_ch": {
       "type": "string"
     },
-    "title_en": {
-      "type": "string"
+    "body_en": {
+      "type": "richtext"
     },
-    "news_img": {
+    "body_ch": {
+      "type": "richtext"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -30,18 +38,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "news_en": {
-      "type": "richtext"
-    },
-    "news_id": {
-      "type": "richtext"
-    },
-    "news_ch": {
-      "type": "richtext"
-    },
-    "news_date": {
-      "type": "date"
     }
   }
 }
