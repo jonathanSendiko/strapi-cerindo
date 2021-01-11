@@ -2,7 +2,8 @@
   "collectionName": "components_about_us_board_of_director_s",
   "info": {
     "name": "Board of Director ",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,15 +12,6 @@
     },
     "position": {
       "type": "string"
-    },
-    "description_id": {
-      "type": "text"
-    },
-    "description_en": {
-      "type": "text"
-    },
-    "description_ch": {
-      "type": "text"
     },
     "Picture": {
       "model": "file",
@@ -31,6 +23,24 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "description_en": {
+      "type": "richtext"
+    },
+    "description_id": {
+      "type": "richtext"
+    },
+    "description_ch": {
+      "type": "richtext"
+    },
+    "tag_en": {
+      "type": "string"
+    },
+    "tag_id": {
+      "type": "string"
+    },
+    "tag_ch": {
+      "type": "string"
     }
   }
 }

@@ -16,9 +16,6 @@
     "title1_id": {
       "type": "string"
     },
-    "description2_id": {
-      "type": "text"
-    },
     "safety_images": {
       "collection": "file",
       "via": "related",
@@ -30,29 +27,14 @@
       "plugin": "upload",
       "required": false
     },
-    "description1_id": {
-      "type": "text"
-    },
     "title3_en": {
       "type": "string"
-    },
-    "description2_ch": {
-      "type": "text"
     },
     "title2_en": {
       "type": "string"
     },
-    "description1_ch": {
-      "type": "text"
-    },
     "title1_en": {
       "type": "string"
-    },
-    "description2_en": {
-      "type": "text"
-    },
-    "description1_en": {
-      "type": "text"
     },
     "title1_ch": {
       "type": "string"
@@ -61,6 +43,33 @@
       "type": "string"
     },
     "title3_ch": {
+      "type": "string"
+    },
+    "description1_en": {
+      "type": "richtext"
+    },
+    "description1_id": {
+      "type": "richtext"
+    },
+    "description1_ch": {
+      "type": "richtext"
+    },
+    "description2_en": {
+      "type": "richtext"
+    },
+    "description_id": {
+      "type": "richtext"
+    },
+    "description2_ch": {
+      "type": "richtext"
+    },
+    "tag_en": {
+      "type": "string"
+    },
+    "tag_id": {
+      "type": "string"
+    },
+    "tag_ch": {
       "type": "string"
     }
   }

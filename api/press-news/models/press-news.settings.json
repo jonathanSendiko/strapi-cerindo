@@ -20,15 +20,6 @@
     "title_en": {
       "type": "string"
     },
-    "news_id": {
-      "type": "text"
-    },
-    "news_en": {
-      "type": "text"
-    },
-    "news_ch": {
-      "type": "text"
-    },
     "news_img": {
       "model": "file",
       "via": "related",
@@ -39,6 +30,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "news_en": {
+      "type": "richtext"
+    },
+    "news_id": {
+      "type": "richtext"
+    },
+    "news_ch": {
+      "type": "richtext"
+    },
+    "news_date": {
+      "type": "date"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_us_ceria_values",
+  "info": {
+    "name": "Ceria Value",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "value_description": {
+      "type": "richtext"
+    }
+  }
+}
