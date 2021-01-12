@@ -62,15 +62,6 @@
     },
     "description2_ch": {
       "type": "richtext"
-    },
-    "tag_en": {
-      "type": "string"
-    },
-    "tag_id": {
-      "type": "string"
-    },
-    "tag_ch": {
-      "type": "string"
     }
   }
 }

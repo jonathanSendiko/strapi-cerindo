@@ -37,15 +37,6 @@
       "type": "component",
       "repeatable": true,
       "component": "about-us.ceria-value"
-    },
-    "tag_en": {
-      "type": "string"
-    },
-    "tag_id": {
-      "type": "string"
-    },
-    "tag_ch": {
-      "type": "string"
     }
   }
 }
