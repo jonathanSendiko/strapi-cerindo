@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_about_us_histories",
+  "info": {
+    "name": "histories",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "richtext"
+    },
+    "description_id": {
+      "type": "richtext"
+    },
+    "description_ch": {
+      "type": "richtext"
+    },
+    "history_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

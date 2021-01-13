@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_about_us_licenses",
+  "info": {
+    "name": "license",
+    "icon": "balance-scale",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "content_en": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "content_id": {
+      "type": "richtext"
+    },
+    "content_ch": {
+      "type": "richtext"
+    }
+  }
+}

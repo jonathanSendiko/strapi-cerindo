@@ -7,39 +7,15 @@
   },
   "options": {},
   "attributes": {
-    "title_id": {
-      "type": "string"
-    },
-    "title_en": {
-      "type": "string"
-    },
-    "title_ch": {
-      "type": "string"
-    },
-    "license_desc_image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "Awards": {
       "type": "component",
       "repeatable": true,
       "component": "about-us.awards"
     },
-    "description_id": {
-      "type": "richtext"
-    },
-    "description_en": {
-      "type": "richtext"
-    },
-    "description_ch": {
-      "type": "richtext"
+    "license": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.license"
     }
   }
 }

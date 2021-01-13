@@ -6,46 +6,5 @@
     "description": ""
   },
   "options": {},
-  "attributes": {
-    "history_title_en": {
-      "type": "string"
-    },
-    "history_title_id": {
-      "type": "string"
-    },
-    "history_title_ch": {
-      "type": "string"
-    },
-    "history_image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "milestone_images": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "history_description_id": {
-      "type": "richtext"
-    },
-    "history_description_en": {
-      "type": "richtext"
-    },
-    "history_description_ch": {
-      "type": "richtext"
-    }
-  }
+  "attributes": {}
 }

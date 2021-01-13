@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_his_mils",
+  "info": {
+    "name": "hisMil",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "histories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.histories"
+    },
+    "milestone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.milestone"
+    }
+  }
+}

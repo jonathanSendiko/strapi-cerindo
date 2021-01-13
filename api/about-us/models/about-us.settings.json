@@ -31,11 +31,6 @@
       "repeatable": false,
       "component": "about-us.organization-structure"
     },
-    "history_and_milestone": {
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.history-and-milestone"
-    },
     "concession_area": {
       "type": "component",
       "repeatable": false,
@@ -45,6 +40,11 @@
       "type": "component",
       "repeatable": false,
       "component": "about-us.license-and-award"
+    },
+    "hisMil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.his-mil"
     }
   }
 }
