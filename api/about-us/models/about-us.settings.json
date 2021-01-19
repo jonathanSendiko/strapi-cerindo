@@ -45,6 +45,17 @@
       "type": "component",
       "repeatable": false,
       "component": "about-us.his-mil"
+    },
+    "aboutUsBanner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
