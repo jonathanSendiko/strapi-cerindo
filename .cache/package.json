@@ -2,7 +2,7 @@
   "_args": [
     [
       "strapi-admin@3.4.1",
-      "C:\\MyFilesLol\\Proyek\\strapi-cerindo"
+      "E:\\hadi-temp\\strapi-cerindo"
     ]
   ],
   "_from": "strapi-admin@3.4.1",
@@ -32,7 +32,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/strapi-admin/-/strapi-admin-3.4.1.tgz",
   "_spec": "3.4.1",
-  "_where": "C:\\MyFilesLol\\Proyek\\strapi-cerindo",
+  "_where": "E:\\hadi-temp\\strapi-cerindo",
   "author": {
     "name": "Strapi"
   },

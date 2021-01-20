@@ -2,7 +2,7 @@
   "_args": [
     [
       "strapi-plugin-content-manager@3.4.1",
-      "C:\\MyFilesLol\\Proyek\\strapi-cerindo"
+      "E:\\hadi-temp\\strapi-cerindo"
     ]
   ],
   "_from": "strapi-plugin-content-manager@3.4.1",
@@ -31,7 +31,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.4.1.tgz",
   "_spec": "3.4.1",
-  "_where": "C:\\MyFilesLol\\Proyek\\strapi-cerindo",
+  "_where": "E:\\hadi-temp\\strapi-cerindo",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
