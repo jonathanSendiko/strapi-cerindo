@@ -40,10 +40,26 @@
       "plugin": "upload",
       "required": false
     },
-    "StructureAndFinancialReport": {
-      "type": "component",
-      "repeatable": true,
-      "component": "structure-and-financial-report.structure-and-financial-report",
+    "structure_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "financialReport": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
       "required": false
     }
   }

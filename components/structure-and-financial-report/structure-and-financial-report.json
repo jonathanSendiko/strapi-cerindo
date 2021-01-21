@@ -7,10 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "Structure": {
-      "type": "string",
-      "default": "Structure"
-    },
     "Structure_img": {
       "model": "file",
       "via": "related",
@@ -20,10 +16,6 @@
       "plugin": "upload",
       "required": false
     },
-    "FinancialReport": {
-      "type": "string",
-      "default": "FinancialReport"
-    },
     "FinancialReport_file": {
       "model": "file",
       "via": "related",
@@ -32,6 +24,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Structure": {
+      "type": "string"
     }
   }
 }
