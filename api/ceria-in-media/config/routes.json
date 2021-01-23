@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ceria-in-medias",
+      "handler": "ceria-in-media.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ceria-in-medias/count",
+      "handler": "ceria-in-media.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ceria-in-medias/:id",
+      "handler": "ceria-in-media.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ceria-in-medias",
+      "handler": "ceria-in-media.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ceria-in-medias/:id",
+      "handler": "ceria-in-media.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ceria-in-medias/:id",
+      "handler": "ceria-in-media.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

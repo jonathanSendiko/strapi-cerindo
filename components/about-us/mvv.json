@@ -7,17 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "MVV_images": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "Mission_description": {
       "type": "richtext"
     },
@@ -28,6 +17,17 @@
       "type": "component",
       "repeatable": true,
       "component": "about-us.ceria-value"
+    },
+    "banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

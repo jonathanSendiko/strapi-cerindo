@@ -1,21 +1,16 @@
 {
-  "collectionName": "components_about_us_license_and_awards",
+  "collectionName": "components_about_us_commitments",
   "info": {
-    "name": "License and Award",
-    "icon": "helicopter",
+    "name": "Commitment",
+    "icon": "asterisk",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "license": {
+    "commitment_content": {
       "type": "component",
       "repeatable": true,
-      "component": "about-us.license"
-    },
-    "Concession": {
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.concession-area"
+      "component": "about-us.commitment-content"
     },
     "banner": {
       "collection": "file",

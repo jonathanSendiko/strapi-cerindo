@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "gallery",
+  "collectionName": "ceria_in_medias",
   "info": {
-    "name": "Photo Gallery",
-    "description": ""
+    "name": "Ceria in Media"
   },
   "options": {
     "increments": true,
@@ -20,8 +19,17 @@
     "title_ch": {
       "type": "string"
     },
+    "body_en": {
+      "type": "richtext"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "body_ch": {
+      "type": "richtext"
+    },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",

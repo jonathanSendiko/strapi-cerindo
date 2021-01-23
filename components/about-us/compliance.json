@@ -1,15 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "gallery",
+  "collectionName": "components_about_us_compliances",
   "info": {
-    "name": "Photo Gallery",
-    "description": ""
+    "name": "Compliance",
+    "icon": "ad"
   },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
+  "options": {},
   "attributes": {
     "title_en": {
       "type": "string"
@@ -20,8 +15,8 @@
     "title_ch": {
       "type": "string"
     },
-    "image": {
-      "collection": "file",
+    "Timeline": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",

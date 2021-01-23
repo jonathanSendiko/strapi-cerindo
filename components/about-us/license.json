@@ -35,6 +35,17 @@
     },
     "content_ch": {
       "type": "richtext"
+    },
+    "pdf_file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
