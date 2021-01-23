@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_sustainibility_community_activities",
+  "info": {
+    "name": "Community Activities",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

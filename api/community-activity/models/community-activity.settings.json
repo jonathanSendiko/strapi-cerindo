@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "community_activities",
+  "info": {
+    "name": "Community Activity",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "news_en": {
+      "type": "richtext"
+    },
+    "news_id": {
+      "type": "richtext"
+    },
+    "news_ch": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

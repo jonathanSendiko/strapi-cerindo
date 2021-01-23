@@ -25,6 +25,11 @@
       "type": "component",
       "repeatable": false,
       "component": "global-sustainibility.awards"
+    },
+    "CommunityActivities": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global-sustainibility.community-activities"
     }
   }
 }
