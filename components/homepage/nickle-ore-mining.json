@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_homepage_nickle_ore_minings",
+  "info": {
+    "name": "NickleOreMining",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "body_ch": {
+      "type": "text"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "body_en": {
+      "type": "text"
+    },
+    "button_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "button_ch": {
+      "type": "string"
+    },
+    "button_en": {
+      "type": "string"
+    },
+    "body_id": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

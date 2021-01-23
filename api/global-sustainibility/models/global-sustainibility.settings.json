@@ -1,8 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "global_sustainibilities",
+  "collectionName": "global-sustainibility",
   "info": {
-    "name": "Global Sustainibility"
+    "name": "Global Sustainibility",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,17 +14,17 @@
     "QHSE": {
       "type": "component",
       "repeatable": false,
-      "component": "qhse-global.qhse"
-    },
-    "Awards": {
-      "type": "component",
-      "repeatable": false,
-      "component": "awards-global.awards"
+      "component": "global-sustainibility.qhse"
     },
     "SustainibilityReports": {
       "type": "component",
       "repeatable": false,
-      "component": "sustainibility-reports.sustainibility-reports"
+      "component": "global-sustainibility.sustainibility-reports"
+    },
+    "Awards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global-sustainibility.awards"
     }
   }
 }

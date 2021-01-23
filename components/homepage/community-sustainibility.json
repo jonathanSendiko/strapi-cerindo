@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_nickle_ore_mining_nickle_ore_minings",
+  "collectionName": "components_homepage_community_sustainibilities",
   "info": {
-    "name": "NickleOreMining",
-    "icon": "border-none"
+    "name": "CommunitySustainibility",
+    "icon": "archive"
   },
   "options": {},
   "attributes": {
@@ -21,9 +21,6 @@
     "title_ch": {
       "type": "string"
     },
-    "title_en": {
-      "type": "string"
-    },
     "button_ch": {
       "type": "string"
     },
@@ -32,6 +29,18 @@
     },
     "body_id": {
       "type": "text"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

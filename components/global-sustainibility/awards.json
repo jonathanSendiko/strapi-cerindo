@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_awards_sds",
+  "collectionName": "components_global_sustainibility_awards",
   "info": {
-    "name": "sd",
-    "icon": "angle-double-right"
+    "name": "Awards",
+    "icon": "angle-double-up",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,15 +17,15 @@
       "type": "string"
     },
     "body_en": {
-      "type": "richtext"
+      "type": "text"
     },
     "body_id": {
-      "type": "richtext"
+      "type": "text"
     },
     "body_ch": {
-      "type": "richtext"
+      "type": "text"
     },
-    "images": {
+    "image": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [

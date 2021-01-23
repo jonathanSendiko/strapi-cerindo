@@ -1,8 +1,9 @@
 {
-  "collectionName": "awards",
+  "collectionName": "components_global_sustainibility_qhses",
   "info": {
-    "name": "Awards",
-    "icon": "angle-left"
+    "name": "QHSE",
+    "icon": "address-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,15 +17,24 @@
       "type": "string"
     },
     "body_en": {
-      "type": "richtext"
+      "type": "text"
     },
     "body_id": {
-      "type": "richtext"
+      "type": "text"
     },
     "body_ch": {
-      "type": "richtext"
+      "type": "text"
     },
-    "images": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "banner": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [

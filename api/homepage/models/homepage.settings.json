@@ -11,25 +11,29 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "title.title"
-    },
     "AboutUs": {
       "type": "component",
       "repeatable": false,
-      "component": "about-us.about-us"
+      "component": "homepage.about-us"
     },
     "NickleOreMining": {
       "type": "component",
       "repeatable": false,
-      "component": "nickle-ore-mining.nickle-ore-mining"
+      "component": "homepage.nickle-ore-mining"
     },
     "CommunitySustainibility": {
       "type": "component",
       "repeatable": false,
-      "component": "community.community-sustainibility"
+      "component": "homepage.community-sustainibility"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
     }
   }
 }

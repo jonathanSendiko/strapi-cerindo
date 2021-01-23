@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_qhse_qhses",
+  "collectionName": "components_global_sustainibility_sustainibility_reports",
   "info": {
-    "name": "QHSE",
-    "icon": "arrows-alt-v",
+    "name": "Sustainibility Reports",
+    "icon": "angle-right",
     "description": ""
   },
   "options": {},
@@ -17,16 +17,16 @@
       "type": "string"
     },
     "body_en": {
-      "type": "richtext"
+      "type": "text"
     },
     "body_id": {
-      "type": "richtext"
+      "type": "text"
     },
     "body_ch": {
-      "type": "richtext"
+      "type": "text"
     },
-    "banner": {
-      "collection": "file",
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -34,10 +34,21 @@
       "plugin": "upload",
       "required": false
     },
-    "image": {
-      "model": "file",
+    "files": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
+        "files",
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
         "images"
       ],
       "plugin": "upload",

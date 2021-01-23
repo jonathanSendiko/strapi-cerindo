@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_community_community_sustainibilities",
+  "collectionName": "components_homepage_about_uses",
   "info": {
-    "name": "Community Sustainibility",
-    "icon": "angle-double-down"
+    "name": "About-Us",
+    "icon": "arrows-alt-v",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -21,9 +22,6 @@
     "title_ch": {
       "type": "string"
     },
-    "title_en": {
-      "type": "string"
-    },
     "button_ch": {
       "type": "string"
     },
@@ -32,6 +30,18 @@
     },
     "body_id": {
       "type": "text"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
