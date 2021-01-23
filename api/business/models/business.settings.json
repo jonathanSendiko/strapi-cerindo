@@ -48,8 +48,8 @@
       "type": "string",
       "required": true
     },
-    "thumbnail": {
-      "model": "file",
+    "banner": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images"

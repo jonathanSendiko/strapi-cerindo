@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_title_titles",
+  "info": {
+    "name": "Title",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    }
+  }
+}

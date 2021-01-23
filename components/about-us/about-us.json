@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_about_us_aboutuses",
+  "info": {
+    "name": "AboutUs",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "body_ch": {
+      "type": "text"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "body_en": {
+      "type": "text"
+    },
+    "button_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "button_ch": {
+      "type": "string"
+    },
+    "button_en": {
+      "type": "string"
+    },
+    "body_id": {
+      "type": "text"
+    }
+  }
+}

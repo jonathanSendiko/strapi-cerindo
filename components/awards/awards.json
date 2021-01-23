@@ -1,15 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "sustainibility",
+  "collectionName": "awards",
   "info": {
-    "name": "Sustainibility",
-    "description": ""
+    "name": "Awards",
+    "icon": "angle-left"
   },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
+  "options": {},
   "attributes": {
     "title_en": {
       "type": "string"
@@ -29,16 +24,7 @@
     "body_ch": {
       "type": "richtext"
     },
-    "tab_en": {
-      "type": "string"
-    },
-    "tab_id": {
-      "type": "string"
-    },
-    "tab_ch": {
-      "type": "string"
-    },
-    "image": {
+    "images": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_qhse_qhses",
+  "info": {
+    "name": "QHSE",
+    "icon": "arrows-alt-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "body_en": {
+      "type": "richtext"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "body_ch": {
+      "type": "richtext"
+    },
+    "banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

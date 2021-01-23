@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_awards_sds",
+  "info": {
+    "name": "sd",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "body_en": {
+      "type": "richtext"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "body_ch": {
+      "type": "richtext"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
