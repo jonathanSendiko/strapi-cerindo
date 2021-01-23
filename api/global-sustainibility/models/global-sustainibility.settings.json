@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_sustainibilities",
+  "info": {
+    "name": "Global Sustainibility"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "QHSE": {
+      "type": "component",
+      "repeatable": false,
+      "component": "qhse-global.qhse"
+    },
+    "Awards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "awards-global.awards"
+    },
+    "SustainibilityReports": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sustainibility-reports.sustainibility-reports"
+    }
+  }
+}
