@@ -31,12 +31,7 @@
       "repeatable": false,
       "component": "about-us.organization-structure"
     },
-    "concession_area": {
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.concession-area"
-    },
-    "license_and_award": {
+    "license_and_concession": {
       "type": "component",
       "repeatable": false,
       "component": "about-us.license-and-award"
@@ -46,16 +41,10 @@
       "repeatable": false,
       "component": "about-us.his-mil"
     },
-    "aboutUsBanner": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "Commitment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.commitment"
     }
   }
 }

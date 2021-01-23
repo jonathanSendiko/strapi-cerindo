@@ -1,11 +1,15 @@
 {
-  "collectionName": "components_static_qualities",
+  "kind": "collectionType",
+  "collectionName": "announcements",
   "info": {
-    "name": "Quality",
-    "icon": "user-check",
+    "name": "Announcement",
     "description": ""
   },
-  "options": {},
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
   "attributes": {
     "title_en": {
       "type": "string"
@@ -16,8 +20,17 @@
     "title_ch": {
       "type": "string"
     },
-    "quality_img": {
-      "collection": "file",
+    "body_en": {
+      "type": "richtext"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "body_ch": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -26,15 +39,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "description_id": {
-      "type": "richtext"
-    },
-    "description_en": {
-      "type": "richtext"
-    },
-    "description_ch": {
-      "type": "richtext"
     }
   }
 }

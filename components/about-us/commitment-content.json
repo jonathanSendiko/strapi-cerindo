@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_about_us_histories",
+  "collectionName": "components_about_us_commitment_contents",
   "info": {
-    "name": "histories",
-    "icon": "american-sign-language-interpreting",
-    "description": ""
+    "name": "commitment_content",
+    "icon": "ambulance"
   },
   "options": {},
   "attributes": {
@@ -16,13 +15,13 @@
     "title_ch": {
       "type": "string"
     },
-    "description_en": {
+    "body_en": {
       "type": "richtext"
     },
-    "description_id": {
+    "body_id": {
       "type": "richtext"
     },
-    "description_ch": {
+    "body_ch": {
       "type": "richtext"
     }
   }

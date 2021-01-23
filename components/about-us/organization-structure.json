@@ -17,6 +17,17 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
