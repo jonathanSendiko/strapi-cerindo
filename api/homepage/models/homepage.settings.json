@@ -34,6 +34,17 @@
     },
     "title_ch": {
       "type": "string"
+    },
+    "heroBanner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
