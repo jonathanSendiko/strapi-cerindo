@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_career_lowongan_pekerjaans",
+  "info": {
+    "name": "Lowongan Pekerjaan",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "jobName": {
+      "type": "string"
+    },
+    "availibility": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_career_titles",
+  "info": {
+    "name": "Title",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "body_en": {
+      "type": "text"
+    },
+    "body_id": {
+      "type": "text"
+    },
+    "body_ch": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
