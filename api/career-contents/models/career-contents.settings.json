@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_contents",
+  "info": {
+    "name": "Career Contents",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "jobName": {
+      "type": "string"
+    },
+    "TugasUtamaJabatan": {
+      "type": "text"
+    },
+    "TugasPokokTanggungJawab": {
+      "type": "text"
+    },
+    "Kualifikasi": {
+      "type": "text"
+    },
+    "KeteranganCV": {
+      "type": "text"
+    }
+  }
+}

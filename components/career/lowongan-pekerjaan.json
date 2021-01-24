@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "jobName": {
+    "jobType": {
       "type": "string"
     },
     "availibility": {
