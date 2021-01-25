@@ -25,15 +25,6 @@
     "body_ch": {
       "type": "text"
     },
-    "image": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "banner": {
       "collection": "file",
       "via": "related",
@@ -42,6 +33,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "awards_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global-sustainibility.awards-list"
     }
   }
 }

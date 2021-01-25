@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_global_sustainibility_awards_lists",
+  "info": {
+    "name": "awards-list",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
