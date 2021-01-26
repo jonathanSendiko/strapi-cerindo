@@ -24,18 +24,6 @@
       "type": "string",
       "required": true
     },
-    "body_en": {
-      "type": "richtext",
-      "required": true
-    },
-    "body_id": {
-      "type": "richtext",
-      "required": true
-    },
-    "body_ch": {
-      "type": "richtext",
-      "required": true
-    },
     "tag_en": {
       "type": "string",
       "required": true
@@ -56,6 +44,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "body_en": {
+      "type": "text"
+    },
+    "body_id": {
+      "type": "text"
+    },
+    "body_ch": {
+      "type": "text"
     }
   }
 }

@@ -31,17 +31,17 @@
       "plugin": "upload",
       "required": false
     },
-    "news_en": {
-      "type": "richtext"
-    },
-    "news_id": {
-      "type": "richtext"
-    },
-    "news_ch": {
-      "type": "richtext"
-    },
     "news_date": {
       "type": "date"
+    },
+    "news_en": {
+      "type": "text"
+    },
+    "news_id": {
+      "type": "text"
+    },
+    "news_ch": {
+      "type": "text"
     }
   }
 }

@@ -20,15 +20,6 @@
     "title_ch": {
       "type": "string"
     },
-    "body_en": {
-      "type": "richtext"
-    },
-    "body_id": {
-      "type": "richtext"
-    },
-    "body_ch": {
-      "type": "richtext"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -39,6 +30,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "body_en": {
+      "type": "text"
+    },
+    "body_id": {
+      "type": "text"
+    },
+    "body_ch": {
+      "type": "text"
     }
   }
 }
