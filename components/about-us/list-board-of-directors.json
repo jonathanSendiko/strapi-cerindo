@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_about_us_list_board_of_directors",
+  "info": {
+    "name": "listBoardOfDirectors",
+    "icon": "biking"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "description_id": {
+      "type": "text"
+    },
+    "description_ch": {
+      "type": "text"
+    }
+  }
+}

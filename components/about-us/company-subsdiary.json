@@ -18,15 +18,6 @@
       "plugin": "upload",
       "required": false
     },
-    "description_id": {
-      "type": "richtext"
-    },
-    "description_en": {
-      "type": "richtext"
-    },
-    "description_ch": {
-      "type": "richtext"
-    },
     "banner": {
       "collection": "file",
       "via": "related",
@@ -37,6 +28,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "date": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "description_id": {
+      "type": "text"
+    },
+    "description_ch": {
+      "type": "text"
     }
   }
 }

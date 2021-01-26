@@ -19,13 +19,13 @@
       "required": false
     },
     "body_en": {
-      "type": "richtext"
+      "type": "text"
     },
     "body_id": {
-      "type": "richtext"
+      "type": "text"
     },
     "body_ch": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }

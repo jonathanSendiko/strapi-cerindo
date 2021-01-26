@@ -2,7 +2,8 @@
   "collectionName": "components_about_us_ceria_values",
   "info": {
     "name": "Ceria Value",
-    "icon": "align-center"
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,7 @@
       "type": "string"
     },
     "value_description": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }

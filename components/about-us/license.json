@@ -10,9 +10,6 @@
     "title_en": {
       "type": "string"
     },
-    "content_en": {
-      "type": "richtext"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -30,12 +27,6 @@
     "title_ch": {
       "type": "string"
     },
-    "content_id": {
-      "type": "richtext"
-    },
-    "content_ch": {
-      "type": "richtext"
-    },
     "pdf_file": {
       "model": "file",
       "via": "related",
@@ -46,6 +37,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "content_en": {
+      "type": "text"
+    },
+    "content_id": {
+      "type": "text"
+    },
+    "content_ch": {
+      "type": "text"
     }
   }
 }

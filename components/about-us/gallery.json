@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_galleries",
+  "info": {
+    "name": "gallery",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

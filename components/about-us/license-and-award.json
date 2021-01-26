@@ -14,7 +14,7 @@
     },
     "Concession": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "about-us.concession-area"
     },
     "banner": {

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_press_releases",
+  "info": {
+    "name": "Press Release",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

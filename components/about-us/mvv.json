@@ -7,12 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "Mission_description": {
-      "type": "richtext"
-    },
-    "Vision_Description": {
-      "type": "richtext"
-    },
     "ceriaValue": {
       "type": "component",
       "repeatable": true,
@@ -28,6 +22,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Mission_description": {
+      "type": "text"
+    },
+    "Vision_Description": {
+      "type": "text"
     }
   }
 }
