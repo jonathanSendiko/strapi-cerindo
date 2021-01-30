@@ -37,10 +37,10 @@ export const Content = () => {
 export const Collection = () => {
 	return(
         <ol>
-          <li className="item">Ke bagian <i>"Collection Types"</i>. Pilih salah satu untuk diubah atau ditambah.</li>
+          <li className="item">Pilih bagian <i>"Collection Types"</i>. Pilih salah satu untuk diubah atau ditambah.</li>
           <li className="item">Jika ingin mengubah, klik kontent yang sesuai dan lakukan perubahan.</li>
-          <li className="item">Jika ingin menambah konten, pilih di kanan atas <i>"Add New ---"</i></li>
-          <li className="item">Jangan lupa untuk mempublish</li>
+          <li className="item">Jika ingin menambah konten, pilih di kanan atas <i>"Add New ---"</i> sesuai dengan konten yang dipilih.</li>
+          <li className="item">Jangan lupa untuk mem-<i>publish</i> atau men-<i>save</i>!</li>
         </ol>
 	)
 };
@@ -48,9 +48,9 @@ export const Collection = () => {
 export const Single = () => {
 	return(
         <ol>
-          <li className="item">Pilih ke bagian <i>"Single Types"</i>. Pilh salah satu untuk diedit</li>
-          <li className="item">Jika ingin mengubah, klik kontent yang sesuai dan lakukan perubahan.</li>
-          <li className="item">Jangan lupa untuk men-save!</li>
+          <li className="item">Pilih bagian <i>"Single Types"</i>. Pilh salah satu untuk diedit.</li>
+          <li className="item">Jika ingin mengubah, klik konten yang sesuai dan lakukan perubahan.</li>
+          <li className="item">Jangan lupa untuk men-<i>save</i>!</li>
         </ol>
 	)
-}
+};
