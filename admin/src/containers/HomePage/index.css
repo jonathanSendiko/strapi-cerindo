@@ -23,7 +23,7 @@
 	font-weight: bold;
 	font-size: 1.25em;
 	padding-top: 0.5em;
-	padding-bottom: 1.2em;
+	padding-bottom: 1em;
 }
 
 .body{
@@ -53,4 +53,17 @@
 
 .italic{
 	font-style: italic;
+}
+
+.button{
+  border: none;
+  color: black;
+  padding: 2px 2px 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover{
+  	transition: ease-in;
+  };
 }
