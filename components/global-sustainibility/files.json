@@ -1,13 +1,18 @@
 {
-  "collectionName": "components_global_sustainibility_awards_lists",
+  "collectionName": "components_global_sustainibility_files",
   "info": {
-    "name": "awards-list",
-    "icon": "angle-double-down",
-    "description": ""
+    "name": "files",
+    "icon": "at"
   },
   "options": {},
   "attributes": {
-    "name": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
       "type": "string"
     },
     "file": {
@@ -20,12 +25,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "description": {
-      "type": "text"
-    },
-    "date": {
-      "type": "date"
     }
   }
 }

@@ -34,16 +34,6 @@
       "plugin": "upload",
       "required": false
     },
-    "files": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files",
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "banner": {
       "collection": "file",
       "via": "related",
@@ -53,6 +43,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global-sustainibility.files"
     }
   }
 }

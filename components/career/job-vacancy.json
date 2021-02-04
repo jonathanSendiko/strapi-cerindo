@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_career_job_vacancies",
+  "info": {
+    "name": "job-vacancy",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "purpose_of_position": {
+      "type": "text"
+    },
+    "duties_and_responsibilities": {
+      "type": "text"
+    },
+    "qualifications": {
+      "type": "text"
+    }
+  }
+}

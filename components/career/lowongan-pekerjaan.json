@@ -10,8 +10,13 @@
     "jobType": {
       "type": "string"
     },
-    "availibility": {
-      "type": "string"
+    "availability": {
+      "type": "integer"
+    },
+    "jobVacancy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "career.job-vacancy"
     }
   }
 }

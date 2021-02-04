@@ -18,13 +18,24 @@
     },
     "LowonganPekerjaan": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "career.lowongan-pekerjaan"
     },
     "EmployeeStory": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "career.employee-story"
+    },
+    "banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
