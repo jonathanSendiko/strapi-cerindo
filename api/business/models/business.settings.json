@@ -24,18 +24,6 @@
       "type": "string",
       "required": true
     },
-    "tag_en": {
-      "type": "string",
-      "required": true
-    },
-    "tag_id": {
-      "type": "string",
-      "required": true
-    },
-    "tag_ch": {
-      "type": "string",
-      "required": true
-    },
     "banner": {
       "collection": "file",
       "via": "related",
@@ -53,6 +41,17 @@
     },
     "body_ch": {
       "type": "text"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

@@ -10,7 +10,13 @@
     "name": {
       "type": "string"
     },
-    "file": {
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -20,12 +26,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "description": {
-      "type": "text"
-    },
-    "date": {
-      "type": "date"
     }
   }
 }

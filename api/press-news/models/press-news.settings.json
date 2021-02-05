@@ -20,7 +20,7 @@
     "title_en": {
       "type": "string"
     },
-    "news_img": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -31,7 +31,7 @@
       "plugin": "upload",
       "required": false
     },
-    "news_date": {
+    "date": {
       "type": "date"
     },
     "news_en": {
@@ -42,6 +42,9 @@
     },
     "news_ch": {
       "type": "text"
+    },
+    "source_link": {
+      "type": "string"
     }
   }
 }
