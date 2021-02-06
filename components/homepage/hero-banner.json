@@ -1,16 +1,12 @@
 {
-  "collectionName": "components_about_us_licenses",
+  "collectionName": "components_homepage_hero_banners",
   "info": {
-    "name": "license",
-    "icon": "balance-scale",
-    "description": ""
+    "name": "heroBanner",
+    "icon": "arrow-alt-circle-up"
   },
   "options": {},
   "attributes": {
-    "title_en": {
-      "type": "string"
-    },
-    "image": {
+    "banner": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -21,20 +17,14 @@
       "plugin": "upload",
       "required": false
     },
+    "title_en": {
+      "type": "string"
+    },
     "title_id": {
       "type": "string"
     },
     "title_ch": {
       "type": "string"
-    },
-    "content_en": {
-      "type": "text"
-    },
-    "content_id": {
-      "type": "text"
-    },
-    "content_ch": {
-      "type": "text"
     }
   }
 }

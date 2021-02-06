@@ -26,25 +26,10 @@
       "repeatable": false,
       "component": "homepage.community-sustainibility"
     },
-    "title_en": {
-      "type": "string"
-    },
-    "title_id": {
-      "type": "string"
-    },
-    "title_ch": {
-      "type": "string"
-    },
-    "heroBanner": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "hero_banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.hero-banner"
     }
   }
 }

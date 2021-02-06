@@ -27,6 +27,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "license_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.license-list"
     }
   }
 }
