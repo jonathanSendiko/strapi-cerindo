@@ -28,6 +28,24 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "title_id": {
+      "type": "string"
+    },
+    "title_ch": {
+      "type": "string"
+    },
+    "body_id": {
+      "type": "text"
+    },
+    "body_en": {
+      "type": "text"
+    },
+    "body_ch": {
+      "type": "text"
     }
   }
 }
