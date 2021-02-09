@@ -52,6 +52,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "body2_en": {
+      "type": "text"
+    },
+    "body2_id": {
+      "type": "text"
+    },
+    "body2_ch": {
+      "type": "text"
     }
   }
 }
