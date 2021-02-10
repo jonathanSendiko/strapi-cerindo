@@ -10,7 +10,7 @@
     "name": {
       "type": "string"
     },
-    "description": {
+    "description_en": {
       "type": "text"
     },
     "date": {
@@ -26,6 +26,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "description_id": {
+      "type": "text"
+    },
+    "description_ch": {
+      "type": "text"
     }
   }
 }
