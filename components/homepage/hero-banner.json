@@ -2,7 +2,8 @@
   "collectionName": "components_homepage_hero_banners",
   "info": {
     "name": "heroBanner",
-    "icon": "arrow-alt-circle-up"
+    "icon": "arrow-alt-circle-up",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,13 +19,13 @@
       "required": false
     },
     "title_en": {
-      "type": "string"
+      "type": "text"
     },
     "title_id": {
-      "type": "string"
+      "type": "text"
     },
     "title_ch": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
