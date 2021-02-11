@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "name": {
+    "name_en": {
       "type": "string"
     },
     "description_en": {
@@ -32,6 +32,12 @@
     },
     "description_ch": {
       "type": "text"
+    },
+    "name_id": {
+      "type": "string"
+    },
+    "name_ch": {
+      "type": "string"
     }
   }
 }
