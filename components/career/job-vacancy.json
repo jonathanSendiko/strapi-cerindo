@@ -7,17 +7,41 @@
   },
   "options": {},
   "attributes": {
-    "name": {
+    "name_en": {
       "type": "string"
     },
-    "purpose_of_position": {
-      "type": "text"
+    "name_id": {
+      "type": "string"
     },
-    "duties_and_responsibilities": {
-      "type": "text"
+    "name_ch": {
+      "type": "string"
     },
-    "qualifications": {
-      "type": "text"
+    "purpose_of_position_en": {
+      "type": "richtext"
+    },
+    "purpose_of_position_id": {
+      "type": "richtext"
+    },
+    "purpose_of_position_ch": {
+      "type": "richtext"
+    },
+    "duties_and_responsibilities_en": {
+      "type": "richtext"
+    },
+    "duties_and_responsibilities_id": {
+      "type": "richtext"
+    },
+    "duties_and_responsibilities_ch": {
+      "type": "richtext"
+    },
+    "qualifications_en": {
+      "type": "richtext"
+    },
+    "qualifications_id": {
+      "type": "richtext"
+    },
+    "qualifications_ch": {
+      "type": "richtext"
     }
   }
 }

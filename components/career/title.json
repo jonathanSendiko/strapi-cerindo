@@ -16,9 +16,6 @@
     "title_ch": {
       "type": "string"
     },
-    "body_en": {
-      "type": "text"
-    },
     "body_id": {
       "type": "text"
     },
@@ -33,6 +30,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "body_en": {
+      "type": "richtext"
     }
   }
 }
