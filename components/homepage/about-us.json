@@ -34,10 +34,32 @@
     "title_en": {
       "type": "string"
     },
-    "video": {
+    "video_en": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "video_id": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "video_ch": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
