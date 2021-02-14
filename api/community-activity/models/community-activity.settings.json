@@ -33,13 +33,13 @@
       "type": "date"
     },
     "news_en": {
-      "type": "text"
+      "type": "richtext"
     },
     "news_id": {
-      "type": "text"
+      "type": "richtext"
     },
     "news_ch": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

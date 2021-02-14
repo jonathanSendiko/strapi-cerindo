@@ -16,12 +16,6 @@
     "title_ch": {
       "type": "string"
     },
-    "body_id": {
-      "type": "text"
-    },
-    "body_ch": {
-      "type": "text"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -32,6 +26,12 @@
       "required": false
     },
     "body_en": {
+      "type": "richtext"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "body_ch": {
       "type": "richtext"
     }
   }

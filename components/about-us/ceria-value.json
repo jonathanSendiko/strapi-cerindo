@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "value": {
+    "value_en": {
       "type": "string"
     },
-    "value_description": {
+    "value_description_en": {
       "type": "text"
     },
     "logo": {
@@ -23,6 +23,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "value_description_id": {
+      "type": "text"
+    },
+    "value_description_ch": {
+      "type": "text"
+    },
+    "value_id": {
+      "type": "string"
+    },
+    "value_ch": {
+      "type": "string"
     }
   }
 }

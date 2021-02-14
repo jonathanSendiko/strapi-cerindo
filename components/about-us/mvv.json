@@ -23,10 +23,10 @@
       "plugin": "upload",
       "required": false
     },
-    "Mission_description": {
+    "mission_description_en": {
       "type": "text"
     },
-    "Vision_Description": {
+    "vision_description_en": {
       "type": "text"
     },
     "image": {
@@ -39,6 +39,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "mission_description_id": {
+      "type": "text"
+    },
+    "mission_description_ch": {
+      "type": "text"
+    },
+    "vision_description_id": {
+      "type": "text"
+    },
+    "vision_description_ch": {
+      "type": "text"
     }
   }
 }

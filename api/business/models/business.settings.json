@@ -33,15 +33,6 @@
       "plugin": "upload",
       "required": false
     },
-    "body_en": {
-      "type": "text"
-    },
-    "body_id": {
-      "type": "text"
-    },
-    "body_ch": {
-      "type": "text"
-    },
     "images": {
       "collection": "file",
       "via": "related",
@@ -53,14 +44,23 @@
       "plugin": "upload",
       "required": false
     },
+    "body_en": {
+      "type": "richtext"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "body_ch": {
+      "type": "richtext"
+    },
     "body2_en": {
-      "type": "text"
+      "type": "richtext"
     },
     "body2_id": {
-      "type": "text"
+      "type": "richtext"
     },
     "body2_ch": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

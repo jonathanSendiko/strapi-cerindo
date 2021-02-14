@@ -16,15 +16,6 @@
     "title_ch": {
       "type": "string"
     },
-    "body_en": {
-      "type": "text"
-    },
-    "body_id": {
-      "type": "text"
-    },
-    "body_ch": {
-      "type": "text"
-    },
     "banner": {
       "collection": "file",
       "via": "related",
@@ -38,6 +29,15 @@
       "type": "component",
       "repeatable": true,
       "component": "global-sustainibility.awards-list"
+    },
+    "body_en": {
+      "type": "richtext"
+    },
+    "body_id": {
+      "type": "richtext"
+    },
+    "body_ch": {
+      "type": "richtext"
     }
   }
 }
