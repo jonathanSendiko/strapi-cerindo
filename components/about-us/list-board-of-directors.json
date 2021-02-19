@@ -2,14 +2,15 @@
   "collectionName": "components_about_us_list_board_of_directors",
   "info": {
     "name": "listBoardOfDirectors",
-    "icon": "biking"
+    "icon": "biking",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "name": {
       "type": "string"
     },
-    "position": {
+    "position_en": {
       "type": "string"
     },
     "picture": {
@@ -31,6 +32,12 @@
     },
     "description_ch": {
       "type": "text"
+    },
+    "position_id": {
+      "type": "string"
+    },
+    "position_ch": {
+      "type": "string"
     }
   }
 }

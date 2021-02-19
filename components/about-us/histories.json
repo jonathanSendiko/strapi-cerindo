@@ -16,14 +16,14 @@
     "title_ch": {
       "type": "string"
     },
-    "description_id": {
-      "type": "text"
-    },
     "description_en": {
-      "type": "text"
+      "type": "richtext"
+    },
+    "description_id": {
+      "type": "richtext"
     },
     "description_ch": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

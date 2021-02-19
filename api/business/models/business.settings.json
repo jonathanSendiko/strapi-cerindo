@@ -33,17 +33,6 @@
       "plugin": "upload",
       "required": false
     },
-    "images": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "body_en": {
       "type": "richtext"
     },

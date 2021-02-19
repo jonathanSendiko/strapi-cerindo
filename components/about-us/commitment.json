@@ -7,11 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "commitment_content": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.commitment-content"
-    },
     "banner": {
       "collection": "file",
       "via": "related",
@@ -22,6 +17,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "commitment_content_en": {
+      "type": "richtext"
+    },
+    "commitment_content_id": {
+      "type": "richtext"
+    },
+    "commitment_content_ch": {
+      "type": "richtext"
     }
   }
 }
