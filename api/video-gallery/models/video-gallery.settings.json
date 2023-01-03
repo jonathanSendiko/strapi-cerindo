@@ -52,6 +52,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "video_date": {
+      "type": "date"
     }
   }
 }
