@@ -17,7 +17,7 @@
     "title_id": {
       "type": "string"
     },
-    "title_cn": {
+    "title_ch": {
       "type": "string"
     },
     "file": {
@@ -33,6 +33,30 @@
     },
     "date": {
       "type": "date"
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description_en": {
+      "type": "string"
+    },
+    "description_id": {
+      "type": "string"
+    },
+    "description_ch": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title_en"
     }
   }
 }
